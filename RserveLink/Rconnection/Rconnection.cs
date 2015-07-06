@@ -171,10 +171,13 @@ namespace RserveLink
                 throw new RconnectionException(ex.Message);
             }
             
-            if (response[4] != 0)
+            //// This sometimes equals 0
+            //if (response[4] != 0)
+            //{
+            //    Int32 DataLength = BitConverter.ToInt32(response, 4);
+            Int32 DataLength = BitConverter.ToInt32(response, 4);
+            if (DataLength != 0)
             {
-                Int32 DataLength = BitConverter.ToInt32(response, 4);
-
                 Byte[] DataReceived = new Byte[DataLength];
                 receivedBytesCount += s.Receive(DataReceived, DataLength, SocketFlags.None);
 

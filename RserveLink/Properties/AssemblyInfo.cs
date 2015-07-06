@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("RserveLink")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Krzysztof Miodek")]
+[assembly: AssemblyCompany("Krzysztof Miodek, Updated by Brock")]
 [assembly: AssemblyProduct("RserveLink")]
-[assembly: AssemblyCopyright("Krzysztof Miodek")]
+[assembly: AssemblyCopyright("Krzysztof Miodek, Updated by Brock")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
