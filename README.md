@@ -28,7 +28,7 @@ Carrying forward the GPL v2.0 from the SourceForge respository.
 
 ## Changes
 
-2015-07-06: Changed the RConnection.GetResponse class to allow response[4] to be 0 and to hinge the if statement on whether data was returned.
+2015-07-06: Changed the RConnection.GetResponse class to allow response[4] to be 0 and to hinge the if statement on whether data was returned.  Fixes an issue where the RConnection.Eval would occasionally return an erroneous "Eval Failed" exception on a successful command.
 
 2015-07-06: Created GitHub repo.
 
