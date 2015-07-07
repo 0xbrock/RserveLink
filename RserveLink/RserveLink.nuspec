@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>RserveLink</id>
+        <version>0.1.0.0</version>
+        <title>RserveLink</title>
+        <authors>Brock</authors>
+        <projectUrl>https://github.com/0xbrock/RserveLink</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This is a simple API for connections with Rserve program (making connections,file and variables transport, R-commands execute).  
+
+Compiled from the GitHub project, based on code from the RserveLink SourceForge project, but with fixes.
+
+Please contribute.</description>
+        <summary>This library helps integrate w/ R and Rserve using C#.  A simple API for connections with Rserve program (making connections, file and variables transport, R-commands execute).</summary>
+        <releaseNotes>Fixes issue where RserveLink raises Eval Failed exception on a successful command.</releaseNotes>
+        <copyright>2015</copyright>
+        <language>en-US</language>
+        <tags>R, Rserve, RserveLink</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System.Net" targetFramework=".NETFramework4.0-Client" />
+            <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.0-Client" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.0-Client" />
+            <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.0-Client" />
+            <frameworkAssembly assemblyName="System.Net" targetFramework=".NETFramework4.5.1" />
+            <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5.1" />
+            <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.5.1" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5.1" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="bin\Release\RserveLink.dll" target="lib\net40-client\RserveLink.dll" />
+        <file src="lib\net451\RserveLink.dll" target="lib\net451\RserveLink.dll" />
+    </files>
+</package>
