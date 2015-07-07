@@ -15,11 +15,16 @@ The original Source code on SourceForge was only in a zip, not conducive to cont
 
 ## Installation
 
-The project has been updated to work with Visual Studio 2013 and .Net 4.5.1, no reason it couldn't be 2.0 or 4.0 like the original project. 
+The project has been updated to work with Visual Studio 2013 and targeting .Net 4.0 Client Profile and .Net 4.5.1, no reason it couldn't be 2.0 like the original project. 
+
+Add this library to your via the [RserveLink NuGet Package]:
+<div class="highlight highlight-powershell">
+Install-Package RserveLink
+</div>
 
 ## Contributors
 
-Originally developed by Krzysztof Miodek and updated and moved to GitHub by [Brock].
+Originally developed by Krzysztof Miodek and updated and added to GitHub by [Brock].
 
 ## License
 
@@ -37,3 +42,4 @@ Carrying forward the GPL v2.0 from the SourceForge respository.
 [RserveLinkHelp]:http://rservelink.sourceforge.net/techhelp.htm
 [Brock]:https://github.com/0xbrock/
 [RserveLink - GitHub]:https://github.com/0xbrock/RserveLink
+[RserveLink NuGet Package]:https://www.nuget.org/packages/RserveLink/
