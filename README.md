@@ -11,7 +11,7 @@ See the SourceForge project site [RserveLink - SourceForge].  Help documentation
 
 ## Motivation
 
-The original Source code on SourceForge was only in a zip, not conducive to contribution, and hasn't been updated since 2007.  I am publishing my updated the code on GitHub so that people can fork and extend the library.
+The original Source code on SourceForge was only in a zip, not conducive to contribution, and hasn't been updated since 2007.  I am publishing my updated code on GitHub so that people can fork and extend the library.
 
 ## Installation
 
